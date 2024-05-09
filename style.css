@@ -99,3 +99,16 @@ img{
     top: 990px;
     left: 250px;
 }
+.forms{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: aqua;
+}
+.formsub{
+    text-align: center;
+    background-color: aqua;
+    height: 50px;
+    display: inline-block;
+    margin-left: 1100px;
+}
