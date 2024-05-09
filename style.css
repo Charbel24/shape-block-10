@@ -1,15 +1,101 @@
 .box{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 600px;
     border: 1px solid black;
     background-color: blueviolet;
 }
 .box1{
     display: flex;
     justify-content:space-evenly ;
+    
 }
 .bottomrow {
-    height: 200px;
+    height: 500px;
     background-color: blue;
-    margin-top: 50px;
+    margin-top: 200px;
+    
+}
+.triangle {
+    width: 0;
+    height: 0px;
+    border: solid 300px;
+    border-color: transparent transparent rgb(194, 34, 34) transparent;
+    margin-left: 1900px;
+    position: absolute;
+    margin-top: 500px;
+    top: 0px;
+
+}
+.triangle2{
+    width: 0;
+    height: 0;
+    border: solid 300px;
+    border-color: transparent transparent rgb(0, 174, 255) transparent;
+    margin-left: 1500px;
+    position: absolute;
+    margin-top: 500px;
+    top: 0px;
+}
+.circle1{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 700px;
+    left: 700px;
+}
+.circle2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(72, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 900px;
+    left: 300px;
+}
+.circle3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(72, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 900px;
+    right: 30%;
+}
+.circle4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(72, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 900px;
+   
+}
+.circle5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(72, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1100px;
+    left: 8%;
+   
+}
+.bottom{
+    background-color: brown;
+    height: 100px;
+    margin-top: 5px;
+}
+img{
+    height: 100px;
+    position: absolute;
+    top: 990px;
+    left: 50px;
+}
+.img2{
+    height: 100px;
+    position: absolute;
+    top: 990px;
+    left: 250px;
 }
