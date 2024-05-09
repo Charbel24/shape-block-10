@@ -98,6 +98,7 @@ img{
     position: absolute;
     top: 990px;
     left: 250px;
+   
 }
 .forms{
     display: flex;
@@ -112,3 +113,18 @@ img{
     display: inline-block;
     margin-left: 1100px;
 }
+body {
+    background-color: lightblue;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
